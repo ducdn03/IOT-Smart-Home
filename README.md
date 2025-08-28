@@ -24,31 +24,6 @@ Dự án môn **"Các giải pháp và hệ thống IoT tiên tiến"**: Xây d�
 - **Cơ sở dữ liệu (MySQL):** Lưu thông số cảm biến & lịch sử thao tác
 
 ---
-
-## 📁 Cấu Trúc Thư Mục
-
-```plaintext
-├── embedded/           # Code ESP8266
-│   └── smart_home.ino
-├── backend/            # NodeJS server
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── public/         # Giao diện người dùng
-│   ├── routes/
-│   ├── services/
-│   ├── views/
-│   └── server.js
-├── mqtt/               # Cấu hình Mosquitto
-│   ├── mosquitto.conf
-│   └── passwd
-├── database/
-│   ├── schema.sql
-│   └── example_data.sql
-├── .env                # Thông tin kết nối database
-└── README.md
-```
-
 ---
 
 ## ⚙️ Hướng Dẫn Triển Khai
